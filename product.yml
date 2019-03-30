@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+server:
+  port:8002
+spring:
+  application:
+    name: GOGOU-PRODUCT
+  profiles: dev
+eureka:
+  client:
+    service-url:
+     defaultZone: http://www.eureka-7001.com:7001/eureka#告诉服务提供者要把服务注册到哪儿，注册中心的地址
