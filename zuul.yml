@@ -23,5 +23,7 @@ zuul:
   routes:
     product.serviceId: gogou-product   #与服务提供者的名称一致,小写
     product.path: /product/**  #路由映射：/product/**这个路径的访问都路由到serverId服务处理
+    user.serviceId: plat-privider   #与服务提供者的名称一致,小写
+    user.path: /user/**  #路由映射：/product/**这个路径的访问都路由到serverId服务处理
   ignored-services: "*"  # 安全加固：忽略这个服务，如果要忽略所有的服务， “*”
   prefix: "/gogou"  # 统一前缀
