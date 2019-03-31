@@ -8,6 +8,7 @@ server:
 spring:
   application:
     name: MICROSERVICE-ZUUL-GATEWAY
+  profiles: dev
 
 
 eureka:
