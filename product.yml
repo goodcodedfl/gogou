@@ -19,3 +19,6 @@ eureka:
   client:
     service-url:
      defaultZone: http://www.eureka-7001.com:7001/eureka#告诉服务提供者要把服务注册到哪儿，注册中心的地址
+feign:
+   hystrix:
+       enabled: true
